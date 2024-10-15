@@ -1,0 +1,477 @@
+﻿body {
+    margin: 0px;
+    overflow-x: hidden;
+    background: url('../img/banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* position: relative; */
+    /* left: 50%;
+    right: 50%;
+    transform: translateX(-50%); */
+    gap: 30px;
+    background-color: #482e1d;
+    margin: 0;
+    color: #f0daae;
+}
+.header img {
+    background-color: #f0daae;
+}
+
+.cerchio {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+.logo {
+    margin: 20px 0 20px auto;
+}
+
+.titoliHeader {
+    margin: 20px auto 20px 0;
+}
+
+.navbar {
+    width: 100%;
+    /* position: relative;
+    left: 50%;
+    right: 50%; */
+    /* transform: translateX(-50%); */
+    text-align: center;
+    background: #895d2b;
+    /* padding: 0px; */
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+button {
+    color: white;
+    background-color: #895d2b;
+    border: 3px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.imgHome {
+    color: #482e1d;
+    background-image: url('../img/sfondoBenvenuto.jpg');
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contCitta {
+    color: #482e1d;
+    width: 80vw;
+    margin: 20px auto 20px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(240, 218, 174, 0.7);
+}
+.contCitta h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.citta1,
+.citta2,
+.citta3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.imgCitta {
+    margin-left: 10px;
+}
+.imgCitta img {
+    border-radius: 10px;
+}
+
+.descrCitta {
+    margin-left: 10px;
+}
+
+.citta1 {
+    font-family: Lugrasimo, sans-serif;
+    font-optical-sizing: auto;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.citta2 {
+    font-family: Bahiana, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.citta3 {
+    font-family: Allan, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.menu {
+    padding: 2px;
+    color: rgb(72, 46, 18);
+    text-align: center;
+}
+
+.prodotto {
+    color: rgb(72, 46, 18);
+    display: flex;
+    background-color: rgb(240, 218, 174, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    align-items: center;
+}
+
+.prodotto img {
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    align-self: flex-start;
+}
+
+.descrizione {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.contDescrContatti {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contContatti {
+    width: 50%;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.sezContatti {
+    padding: 50px;
+    color: rgb(72, 46, 18);
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(240, 218, 174, 0.7);
+}
+
+.sezContatti p a {
+    color: #482e1d;
+}
+
+.contDescrAzienda {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    background: rgba(240, 218, 174, 0.7);
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.descrAzienda {
+    color: rgb(72, 46, 18);
+}
+
+.contMappa {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.mappa {
+    border: 20px solid rgba(240, 218, 174, 0.7);
+    border-radius: 10px;
+}
+
+.contenitoreContForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 50px;
+    background: 0;
+    margin: 20px;
+}
+
+.sezContattiPage {
+    color: #482e1d;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgba(240, 218, 174, 0.7);
+    border-radius: 10px;
+}
+.sezContattiPage p a {
+    color: #482e1d;
+}
+
+.formSezione {
+    color: #482e1d;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(240, 218, 174, 0.8);
+    border-radius: 10px;
+}
+
+textarea {
+    border: 2px;
+    border-radius: 3px;
+    background-color: rgba(240, 218, 174, 0.8);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: rgba(240, 218, 174, 0.8);
+}
+
+.contPrenotazioni {
+    color: #482e1d;
+    padding: 50px;
+    background: rgba(240, 218, 174, 0.8);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.contOrari {
+    color: #f0daae;
+    text-align: left;
+    padding: 50px;
+    background: rgba(0);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.contenitoreRecenForm {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    background: #f0daae;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.boxRecensioni {
+    color: #482e1d;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.formRecensione {
+    color: #482e1d;
+    padding: 50px;
+    margin: -50px;
+}
+
+.boxFormRecensione {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.galleria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(240, 218, 174, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 5% 10%;
+}
+
+.galleria img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.eventoImg {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.evento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(72, 46, 18);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(240, 218, 174, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 5% 10%;
+}
+
+@media screen and (max-width: 425px) {
+    .evento {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .evento {
+        /* margin: 0% 10%; */
+    }
+    /*body {
+        margin: 0% 10%;
+    }*/
+}
+
+.eventox {
+    padding: 10px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+.descrizione {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
+.descrizione p {
+    padding: 10px;
+}
+
+.galleriaChisiamo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: rgb(240, 218, 174, 0.7);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.cardImmaginiChisiamo {
+    border-radius: 10px;
+    margin: 50px;
+    /* box-shadow: 5px 5px 20px black; */
+}
+.cardImmaginiChisiamo img {
+    border: 15px;
+    border-radius: 10px;
+    background-size: contain;
+    align-content: center;
+    width: 350px;
+    position: relative;
+}
+
+.storia {
+    width: 65%;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f0daae;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #482e1d;
+}
+.storia h2 {
+    margin: 20px;
+}
+
+.mission {
+    width: 65%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #f0daae;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #482e1d;
+}
+
+.contChisiamo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tornaSu {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tornaSu button {
+    font-size: 18px;
+}
+
+.footer {
+    width: 100%;
+    /* position: relative;
+    left: 50%;
+    right: 50%; */
+    /* transform: translateX(-50%); */
+    text-align: center;
+    padding: 10px 0;
+    background: #90553c;
+    color: white;
+}
+.footer a {
+    color: white;
+    margin-top: auto;
+}
